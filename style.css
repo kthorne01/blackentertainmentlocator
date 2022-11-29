@@ -95,3 +95,30 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Adding effect to categories section */
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.img-wrapper > img {
+  display: blocvk;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-wrapper > .cat1 {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba (255, 255, 255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

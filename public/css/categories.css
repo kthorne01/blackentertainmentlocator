@@ -138,3 +138,30 @@ select,
     grid-column: auto;
   }
 }
+
+/* Adding effect to categories section */
+
+.grid-container {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.grid-container > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.grid-container > .cat1 {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba (255, 255, 255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

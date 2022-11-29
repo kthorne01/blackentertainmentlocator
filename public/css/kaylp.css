@@ -127,7 +127,10 @@ body {
 }
 .contact-box {
   /* background: goldenrod; */
-  background: #333;
+  /* background: #333; */
+  /* background: #404040; */
+  background: #515151;
+  /* background: #717171; */
   display: flex;
 }
 .contact-left {
@@ -413,4 +416,31 @@ figcaption {
 #about {
   /* background-color: #ccb8df; */
   background-color: #2e5984;
+}
+
+/* Adding effect to categories section */
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.img-wrapper > img {
+  display: blocvk;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-wrapper > .cat1 {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba (255, 255, 255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
